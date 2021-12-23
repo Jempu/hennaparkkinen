@@ -1,0 +1,11 @@
+AuthUserFile "/opt/lampp/htdocs/hennaparkkinen/admin/.htpasswd"
+AuthName "Admin Only"
+AuthType Basic
+require valid-user
+
+ErrorDocument 400 https://hennaparkkinen.com
+ErrorDocument 401 https://hennaparkkinen.com
+ErrorDocument 402 https://hennaparkkinen.com
+ErrorDocument 403 https://hennaparkkinen.com
+ErrorDocument 404 https://hennaparkkinen.com
+ErrorDocument 500 https://hennaparkkinen.com
